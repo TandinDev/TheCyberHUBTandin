@@ -4,7 +4,7 @@
 # Run linting and formatting checks
 npx lint-staged
 
-## Run Snyk test
+# Run Snyk test
 #snyk test
 #
 ## Check the exit status of the previous command
