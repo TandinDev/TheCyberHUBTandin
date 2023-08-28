@@ -6,9 +6,9 @@ npx lint-staged
 
 # Run Snyk test
 #snyk test
-#
+
 # Check the exit status of the previous command
-#if  [ $? -ne 0 ]; then
+#if [ $? -ne 0 ]; then
 #  echo "Errors or vulnerabilities were found. Please fix them before committing."
 #  exit 1
 #fi
