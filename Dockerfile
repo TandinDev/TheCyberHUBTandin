@@ -20,7 +20,10 @@ RUN npm run build
 RUN npm install -g http-server
 
 # Expose the port that the application will run on
-EXPOSE 8080
+EXPOSE 3000
+
+# Start the application using npm
+CMD ["npm", "run", "dev"]
 
 # Start the application using http-server
-CMD ["http-server", "dist"]
+#CMD ["http-server", "dist"]
